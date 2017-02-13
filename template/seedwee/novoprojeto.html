@@ -12,7 +12,8 @@
     <title>Seedwe - Social Network for Ideas</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- <link href="css/bootstrap.min.css" rel="stylesheet"> -->
+    <link href="css/bootstrap.css" rel="stylesheet">
 
     <!-- Custom CSS -->
     <link href="css/landing-page.css" rel="stylesheet">
@@ -99,7 +100,8 @@
                                 <label>Qual o nome do seu projeto?</label>
                                 <input type="" name="categoria" class="form-control">
                                 
-                            </div>
+                            </div>                            
+
                             <div class="form-group">
                                 <label>Qual categoria sua ideia se enquadra?</label>
                                 <select class="form-control">
@@ -120,6 +122,16 @@
                                 
                             </div>
                             <div class="form-group">
+                                <label>De quê seu projeto necessita?</label>
+                                <select class="form-control">
+                                    <option>Design</option>
+                                    <option>Progração</option>
+                                    <option>Comunitaria</option>
+                                    <option>Outras Categorias</option>
+                                </select>
+                                
+                            </div>
+                            <div class="form-group">
                                 <label>Quais habilidades são exigidas?</label>
                                 <select class="form-control">
                                     <option>Desenvolvimento Mobile</option>
@@ -129,8 +141,35 @@
                                 </select>
                                 
                             </div>
-
-                            
+                            <div class="form-group" data-toggle="buttons">
+                                <label>Estagio da Ideia</label>
+                                <br>                                
+                                    <label class="btn btn-danger btn-circle btn-xl" active>
+                                        <input type="radio" name="inscricoes_abertas" value="true" autocomplete="off" checked>
+                                        <span style="font-size: 30px">
+                                            <i class="fa fa-lightbulb-o fa-5x "></i>
+                                        </span>
+                                        <br>
+                                        Inicio
+                                    </label>
+                                    <label class="btn btn-success btn-circle btn-xl">
+                                        <input type="radio" name="inscricoes_abertas" value="true" autocomplete="off">
+                                        <span style="font-size: 30px">
+                                            <i class="fa fa-pencil fa-5x"></i>
+                                        </span>
+                                        <br>
+                                        Documento
+                                    </label>  
+                                    <label class="btn btn-primary">
+                                        <input type="radio" name="inscricoes_abertas" value="true" autocomplete="off">
+                                        <span style="font-size: 30px">
+                                            <i class="fa fa-pencil fa-5x"></i>
+                                        </span>
+                                        <br>
+                                        Documento
+                                    </label>                 
+                            </div>                      
+                        
 
                         </form>
                     </div>
